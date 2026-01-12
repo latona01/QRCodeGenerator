@@ -74,6 +74,25 @@
 - ✅ ファイル保存ダイアログで保存先を選択可能
 - ✅ キーボードショートカット対応（Enterキーで生成）
 
+#### EXE版（Windows用スタンドアロン実行ファイル）
+
+Pythonをインストールせずに使えるWindows用の実行ファイル版です。
+
+1. **EXEファイルをビルド**:
+   ```bash
+   build_exe.bat  # または build_exe.ps1
+   ```
+
+2. **ビルド結果**:
+   - `dist/QRCodeGenerator.exe` が生成されます
+
+3. **GitHub Releasesにアップロード**:
+   ```bash
+   scripts/create_release_with_exe.bat  # または create_release_with_exe.ps1
+   ```
+
+詳細は `docs/BUILD_EXE.md` を参照してください。
+
 ### 基本的な使い方
 
 1. テキストエリアにQRコード化したい内容を入力
