@@ -1,4 +1,4 @@
-# 🔲 QRコード生成ツール
+﻿# 🔲 QRコード生成ツール
 
 シンプルで実用的なQRコード生成ツールです。**Web版**と**デスクトップGUI版**の2つのバージョンがあります。
 
@@ -184,18 +184,18 @@ mailto:example@email.com?subject=お問い合わせ&body=メッセージ本文
 
 1. **GitHub Pagesで公開（推奨）**:
    ```bash
-   deploy_to_github.bat  # または deploy_to_github.ps1
+   scripts/deploy_to_github.bat  # または deploy_to_github.ps1
    ```
-   詳細は `DEPLOY.md` を参照してください。
+   詳細は `docs/DEPLOY.md` を参照してください。
 
 2. **note記事用テンプレート**:
-   - `NOTE_TEMPLATE.md` を参考に記事を作成
+   - `docs/NOTE_TEMPLATE.md` を参考に記事を作成
    - 公開したURLを記事内にリンクとして貼り付け
 
 ### 詳細ガイド
 
-- **`DEPLOY.md`**: オンライン公開の詳細手順（GitHub Pages、Netlifyなど）
-- **`NOTE_TEMPLATE.md`**: note記事用のテンプレート
+- **`docs/DEPLOY.md`**: オンライン公開の詳細手順（GitHub Pages、Netlifyなど）
+- **`docs/NOTE_TEMPLATE.md`**: note記事用のテンプレート
 
 ### 公開後のURL例
 
@@ -216,4 +216,5 @@ https://[ユーザー名].github.io/qr-code-generator/
 ---
 
 **シンプル、実用的、そして無料。** 誰でも欲しがるツールです！ 🎉
+
 
